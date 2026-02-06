@@ -104,6 +104,7 @@ Small interactive pages are powerful learning tools
 This foundation makes React feel natural later
 
 <h3>>🎯 Interview Preparation (Day 01 Level)</h3
+                                             
 Q1. What is the role of JavaScript in a web page?
 
 JavaScript adds interactivity and dynamic behavior to web pages.
@@ -121,6 +122,7 @@ Q4. Why refresh JS before learning React?
 React is built on JavaScript concepts like functions, events, and state.
 
 🔗 Helpful References
+
 🔗 https://developer.mozilla.org/en-US/docs/Web/HTML
 
 🔗 https://developer.mozilla.org/en-US/docs/Web/JavaScript
