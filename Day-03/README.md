@@ -1,143 +1,150 @@
-📘 Day 03 — Components & Props in React
-Building Reusable UI with Component-Based Architecture
+<div align="center">
 
-<div align="center"> <img src="https://img.shields.io/badge/Day-03-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Difficulty-Easy--Medium-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Focus-React%20Fundamentals-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" /> </div>
-🎯 Goal of the Day
+# 📅 Day 03 — React Components & Props
 
-The goal of Day 03 is to understand React Components and Props, which are the core building blocks of React applications.
+### Building Reusable UI with Component-Based Architecture
+
+<img src="https://img.shields.io/badge/Day-03-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Difficulty-Easy--Medium-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Focus-React%20Fundamentals-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" />
+
+</div>
+
+---
+
+## 🎯 Goal of the Day
+
+The goal of **Day 03** is to understand **React Components and Props**, which are the **core building blocks** of any React application.
 
 This day focuses on:
 
-Thinking in components
+- Breaking UI into components
+- Making components reusable
+- Passing data using props
+- Writing clean and scalable React code
 
-Making UI reusable
+---
 
-Passing data using props
+## 🧠 Concepts Covered
 
-Structuring React apps cleanly
+### 🔹 React Components
 
-🧠 Concepts Covered
-🔹 React Components
+- Functional components
+- JSX return structure
+- Component naming rules
+- Reusability
 
-Functional components
+### 🔹 Props
 
-JSX return structure
+- Passing data from parent to child
+- Using props inside JSX
+- Making UI dynamic
+- Read-only nature of props
 
-Component naming conventions
+---
 
-Component reusability
+## 🛠️ What I Built
 
-🔹 Props (Properties)
+I created a **simple React UI** that demonstrates:
 
-Passing data from parent to child
+- Multiple reusable components
+- Data passed via props
+- Clean component hierarchy
+- Same component reused with different values
 
-Using props inside JSX
+---
 
-Making components dynamic
+## 📁 Folder Structure
 
-Props as read-only data
+Day-03/  
+├─ README.md  
+├─ notes.md  
+└─ frontend/  
+&nbsp;&nbsp;&nbsp;&nbsp;├─ src/  
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;├─ components/  
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;│&nbsp;&nbsp;├─ Card.jsx  
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;│&nbsp;&nbsp;└─ Header.jsx  
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;├─ App.jsx  
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;└─ main.jsx  
+&nbsp;&nbsp;&nbsp;&nbsp;└─ package.json
 
-🛠️ What I Built
+---
 
-I built a small React UI using:
+## 🧩 How Components & Props Work
 
-Multiple reusable components
+- UI is divided into small components
+- Parent component sends data using props
+- Child component receives and displays data
+- Same component behaves differently with different props
 
-Props to pass dynamic data
+This approach makes React apps **scalable and maintainable**.
 
-Clean component structure
+---
 
-The app demonstrates:
+## 🖼️ Project Preview
 
-One parent component
+<img src="./components-props-preview.png" alt="Components & Props Preview" width="700" align="center"/>
 
-Multiple child components
+---
 
-Same component reused with different data
+## 📝 Notes & Observations
 
-📁 Folder Structure
+- Components improve readability
+- Props remove hard-coded values
+- Reusability reduces duplication
+- Clean structure avoids future confusion
 
-Day-03/
-├─ README.md
-├─ notes.md
-└─ frontend/
-├─ src/
-│ ├─ components/
-│ │ ├─ Card.jsx
-│ │ └─ Header.jsx
-│ ├─ App.jsx
-│ └─ main.jsx
-└─ package.json
+---
 
-🧩 How Components & Props Work
+## 💡 Key Takeaways
 
-Components break UI into small reusable pieces
+- Everything in React is a component
+- Props enable component communication
+- Reusability is React’s biggest strength
+- Clean fundamentals matter more than libraries
 
-Parent components send data using props
+---
 
-Child components receive props and render content
+## 🎯 Interview Preparation (Day 03 Level)
 
-Same component can behave differently with different props
+**Q1. What is a React component?**  
+A reusable JavaScript function that returns JSX.
 
-This is what makes React scalable and maintainable.
+**Q2. What are props?**  
+Props are inputs passed from parent to child components.
 
-🖼️ Project Preview
-<img src="./components-props-preview.png" alt="Components and Props Preview" width="650" align="center"/>
-📝 Notes & Observations
-
-Components make code cleaner and easier to manage
-
-Props remove hard-coded values
-
-Reusability reduces duplication
-
-UI becomes flexible and dynamic
-
-💡 Key Takeaways
-
-Everything in React is a component
-
-Props help components communicate
-
-Reusability is the biggest strength of React
-
-Clean structure = scalable applications
-
-🎯 Interview Preparation (Day 03 Level)
-
-Q1. What is a React component?
-A component is a reusable piece of UI written as a JavaScript function.
-
-Q2. What are props in React?
-Props are inputs passed from a parent component to a child component.
-
-Q3. Can props be modified inside a component?
+**Q3. Can props be changed inside a component?**  
 No, props are read-only.
 
-Q4. Why are components important?
+**Q4. Why are components important?**  
 They improve reusability, readability, and maintainability.
 
-🔗 Helpful References
+---
 
-https://react.dev/learn/your-first-component
+## 🔗 Helpful References
 
-https://react.dev/learn/passing-props-to-a-component
+- https://react.dev/learn/your-first-component
+- https://react.dev/learn/passing-props-to-a-component
 
-⏭️ What’s Next?
+---
+
+## ⏭️ What’s Next?
 
 <div align="center">
-👉 Day 04 – State & Event Handling
+
+### 👉 **Day 04 – State & Event Handling**
 
 Learn how to:
 
-Use useState
-
-Handle user interactions
-
-Build interactive React apps
+- Use `useState`
+- Handle events
+- Build interactive React apps
 
 <br/>
 
-➡️ Go to Day 04
+[➡️ Go to Day 04](../Day-04/README.md)
 
 </div>
+
+---
