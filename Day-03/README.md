@@ -84,7 +84,11 @@ This approach makes React apps **scalable and maintainable**.
 
 ## 🖼️ Project Preview
 
+<<<<<<< Updated upstream
 <img src="./components-props-preview.png" alt="Components & Props Preview" width="700" align="center"/>
+=======
+<img src="./components-props-preview.png" alt="Components & Props Preview" width="650" align="center"/>
+>>>>>>> Stashed changes
 
 ---
 
