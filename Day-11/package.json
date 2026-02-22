@@ -1,0 +1,11 @@
+{
+  "name": "day-11-nodejs-basics",
+  "version": "1.0.0",
+  "description": "Node.js basic server with routing and MVC structure",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Krushna Nawale",
+  "license": "ISC"
+}
