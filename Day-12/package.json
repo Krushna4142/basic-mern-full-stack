@@ -1,0 +1,14 @@
+{
+  "name": "day-12-express-basics",
+  "version": "1.0.0",
+  "description": "Day 12 - Express.js Basics",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Krushna Nawale",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
