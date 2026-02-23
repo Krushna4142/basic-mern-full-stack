@@ -1,0 +1,17 @@
+{
+  "name": "day-13-rest-api",
+  "version": "1.0.0",
+  "description": "REST API Fundamentals",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
