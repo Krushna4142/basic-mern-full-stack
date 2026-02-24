@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "Day 14 – REST API Testing",
+    "_postman_id": "d14-mern-postman-collection",
+    "description": "Testing CRUD APIs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET Users",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/api/users"
+      }
+    },
+    {
+      "name": "CREATE User",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Krushna\",\n  \"role\": \"Full Stack Developer\"\n}"
+        },
+        "url": "{{base_url}}/api/users"
+      }
+    },
+    {
+      "name": "UPDATE User",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Updated Krushna\",\n  \"role\": \"MERN Developer\"\n}"
+        },
+        "url": "{{base_url}}/api/users/1"
+      }
+    },
+    {
+      "name": "DELETE User",
+      "request": {
+        "method": "DELETE",
+        "url": "{{base_url}}/api/users/1"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000"
+    }
+  ]
+}
