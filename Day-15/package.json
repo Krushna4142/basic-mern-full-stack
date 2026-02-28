@@ -1,0 +1,13 @@
+{
+  "name": "day-15-mvc-architecture",
+  "version": "1.0.0",
+  "description": "Day 15 - MVC Architecture using Node.js and Express",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
